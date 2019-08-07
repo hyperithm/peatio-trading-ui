@@ -31,8 +31,8 @@
 #= require_tree ./templates
 
 #= require charting_library/charting_library.min
-#= require datafeed/udf/dist/polyfills
-#= require datafeed/udf/dist/bundle
+#= require datafeeds/udf/dist/polyfills
+#= require datafeeds/udf/dist/bundle
 
 #= require_self
 

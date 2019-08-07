@@ -8,20 +8,18 @@ $neutral-color: #333;
 $green-color: rgb(77, 215, 16);
 $red-color: rgb(208, 0, 23);
 
-$main-bg: #151515;
+$main-bg: #071436;
 $second-bg: #000;
 
 $main-gray: #ccc;
 $dark-gray: #777;
 $black-color: #070707;
 
-
 // -------------------------------------------------------------
 // LAYOUT POSITION
 // -------------------------------------------------------------
 
 $inverted-layout: false; // set to "true" to invert columns
-
 
 // -------------------------------------------------------------
 // COLORS
@@ -32,7 +30,7 @@ $body-bg: $second-bg;
 
 // content
 $content-bg: $body-bg;
-$mask-bg: rgba($main-bg, .85);
+$mask-bg: rgba($main-bg, 0.85);
 
 // texts and links
 $text-color: white;
@@ -50,12 +48,11 @@ $thead-bg: transparent;
 // borders
 $border-color: $neutral-color;
 
-
 // -------------------------------------------------------------
 // PANELS
 // -------------------------------------------------------------
 $panel-bg: $main-bg;
-$panel-bg-alpha: rgba($main-bg,0.8);
+$panel-bg-alpha: rgba($main-bg, 0.8);
 $panel-default-heading-bg: $neutral-color;
 $panel-default-border: $neutral-color;
 $panel-border-radius: 2px;
@@ -63,13 +60,11 @@ $panel-body-padding: 8px 8px 8px 8px;
 $panel-heading-padding: 2px 8px 0px 8px;
 $panel-default-text: $text-color;
 
-
 // -------------------------------------------------------------
 // GREEN (positive numbers)
 // -------------------------------------------------------------
 $up-text: $green-color;
 $up-text-fade: rgba($up-text, 0.9);
-
 
 // -------------------------------------------------------------
 // RED (negative numbers)
@@ -77,13 +72,11 @@ $up-text-fade: rgba($up-text, 0.9);
 $down-text: $red-color;
 $down-text-fade: rgba($down-text, 0.9);
 
-
 // -------------------------------------------------------------
 // MISC
 // -------------------------------------------------------------
 $grid-gutter-width: 4px;
 $border-radius-base: 2px;
-
 
 // -------------------------------------------------------------
 // NAVBAR & NAVS
@@ -112,12 +105,10 @@ $dropdown-bg: $second-bg;
 $dropdown-link-color: $link-color;
 $dropdown-link-hover-bg: $highlight-color;
 
-
 // -------------------------------------------------------------
 // FONTS
 // -------------------------------------------------------------
 $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
-
 
 // -------------------------------------------------------------
 // FORMS, INPUTS, BUTTONS
@@ -132,6 +123,6 @@ $input-border-focus: $navbar-default-border;
 $btn-primary-bg: $main-color;
 $btn-primary-border: darken($main-color, 5);
 
-$label-info-bg: rgba(0,0,0,0);
-$label-success-bg: rgba(0,0,0,0);
-$label-primary-bg: rgba(0,0,0,0);
+$label-info-bg: rgba(0, 0, 0, 0);
+$label-success-bg: rgba(0, 0, 0, 0);
+$label-primary-bg: rgba(0, 0, 0, 0);

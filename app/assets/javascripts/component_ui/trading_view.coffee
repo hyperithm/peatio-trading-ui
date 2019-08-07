@@ -6,7 +6,7 @@
       interval: '60'
       container_id: 'tv_chart_container'
       datafeed: new (Datafeeds.UDFCompatibleDatafeed)('/api/v2/tv')
-      library_path: '/trading-ui-assets/assets/charting_library/'
+      library_path: '/trading-ui-assets/charting_library/'
 #      custom_css_url: '/tv_custom.css'
       locale: gon.local
       drawings_access:

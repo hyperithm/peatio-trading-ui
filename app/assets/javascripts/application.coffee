@@ -113,7 +113,7 @@ $ ->
   MemberData.attachTo(document, {ranger: window.ranger}) if gon.accounts
 
 #  CandlestickUI.attachTo('#candlestick')
-  SwitchUI.attachTo('#range_switch, #indicator_switch, #main_indicator_switch, #type_switch')
+#   SwitchUI.attachTo('#range_switch, #indicator_switch, #main_indicator_switch, #type_switch')
 
   TradingViewUI.attachTo '#candlestick', options: TV_OPTIONS
 
